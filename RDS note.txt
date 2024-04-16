@@ -1,0 +1,16 @@
+multi-AZ== 1 primary, 1 stand by (no write ,no read, only active when primary fails)
+
+
+multi-az DB cluster == 1 primary, 2 stanby (readable, but can act as writer when primary fails)
+
+
+elestic ip:-
+redis    ---|
+memcached---|--  non-sql db
+
+
+data sharding:
+(when rds is full it will launch new rds.)
+
+
+
